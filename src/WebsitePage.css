@@ -1,0 +1,43 @@
+/* WebsitePage.css */
+
+/* Styles for the entire page */
+.website-page {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the header */
+  .website-page header {
+    text-align:left;
+  }
+  
+  .website-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the main content */
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styles for the left content (paragraph) */
+  .left-content {
+    flex: 2;
+    padding-right: 20px; /* Add spacing between content */
+  }
+  
+  /* Styles for the right content (image) */
+  .right-content {
+    flex: 1;
+  }
+  
+  /* Styles for the image */
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  

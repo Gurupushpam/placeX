@@ -1,0 +1,32 @@
+/* Card.css */
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin between cards */
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:110px;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
